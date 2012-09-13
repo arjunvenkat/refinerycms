@@ -26,6 +26,8 @@ module Refinery
 
         tab.templates = %w[all] if tab.templates.blank?
         tab.templates = Array(tab.templates)
+
+        tab
       end
 
     protected
